@@ -7,7 +7,7 @@
 
 ## 自动安装
 
-我们建议使用[create-next-app]()启动一个新的 Next.js 应用程序，该应用程序会自动为您设置所有内容。要创建项目，请运行：
+我们建议使用[create-next-app](/)启动一个新的 Next.js 应用程序，该应用程序会自动为您设置所有内容。要创建项目，请运行：
 
 ```sh
 npx create-next-app@latest
@@ -28,11 +28,11 @@ What import alias would you like configured? @/*
 
 在选择完后，`create-next-app`将根据您提供的名称创建项目，然后安装相关的依赖。
 
-如果你刚接触 Next.js，请查看[项目结构]()文档对您的应用可能存在的文件有一个大概的印象。
+如果你刚接触 Next.js，请查看[项目结构](/)文档对您的应用可能存在的文件有一个大概的印象。
 
 > 提示
 >
-> - Next.js 现在默认提供 [TypeScript]()、[ESLint]() 和 [Tailwind CSS]() 配置。
+> - Next.js 现在默认提供 [TypeScript](/)、[ESLint](/) 和 [Tailwind CSS](/) 配置。
 > - 您能可选择性的使用`src`目录来分割您的代码
 
 ## 手动安装
@@ -58,10 +58,10 @@ npm install next@latest react@latest react-dom@latest
 
 不同的 script 代表应用开发的不同阶段：
 
-- `dev`: 运行 [next dev]()开启一个开发服务器，用于开发和调试
-- `build`: 运行[next build]()进行项目打包
-- `start`: 运行[next start]()开启一个生产环境的服务器
-- `lint`: 运行[next lint]()对应用程序进行代码检查
+- `dev`: 运行 [next dev](/)开启一个开发服务器，用于开发和调试
+- `build`: 运行[next build](/)进行项目打包
+- `start`: 运行[next start](/)开启一个生产环境的服务器
+- `lint`: 运行[next lint](/)对应用程序进行代码检查
 
 ## 创建目录
 
@@ -140,7 +140,7 @@ export default function Document() {
 }
 ```
 
-了解更多关于[使用 Pages Router]()
+了解更多关于[使用 Pages Router](/)
 
 > 提示：尽管您能够在项目中同时使用两种路由模式，但是`app`目录下的路由优先级更高。我们推荐您在新项目中只是用一种路由避免冲突。
 
