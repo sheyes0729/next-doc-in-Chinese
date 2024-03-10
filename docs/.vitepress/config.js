@@ -31,6 +31,19 @@ export default defineConfig({
         href: "/favicon.ico",
       },
     ],
+    [
+      "script",
+      {
+      },
+      `window._hmt = window._hmt || [];
+        (function () {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?cf1e8fac8cc60620e0fa285ffde1db83";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+      `
+    ]
   ],
   themeConfig: {
     siteTitle: "Next.js中文文档",
